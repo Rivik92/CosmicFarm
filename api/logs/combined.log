@@ -1,0 +1,99 @@
+{"level":"info","message":"🚀 Сервер запущен на порту 3000","timestamp":"2026-01-18T17:51:44.514Z"}
+{"level":"info","message":"🌍 Режим: development","timestamp":"2026-01-18T17:51:44.516Z"}
+{"level":"info","message":"GET /api/health - ::1","timestamp":"2026-01-18T17:52:03.150Z"}
+{"level":"info","message":"GET /favicon.ico - ::1","timestamp":"2026-01-18T17:52:03.327Z"}
+{"level":"info","message":"GET /favicon.ico - ::1","timestamp":"2026-01-18T17:52:03.330Z"}
+{"level":"error","message":"❌ Ошибка подключения к MongoDB: connect ECONNREFUSED ::1:27017","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Unknown"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at _handleConnectionErrors (G:\\Программирование\\cosmic-clicker\\cosmic-clicker\\backend\\node_modules\\mongoose\\lib\\connection.js:816:11)\n    at NativeConnection.openUri (G:\\Программирование\\cosmic-clicker\\cosmic-clicker\\backend\\node_modules\\mongoose\\lib\\connection.js:791:11)\n    at runNextTicks (node:internal/process/task_queues:60:5)\n    at listOnTimeout (node:internal/timers:538:9)\n    at process.processTimers (node:internal/timers:512:7)","timestamp":"2026-01-18T17:52:14.519Z"}
+{"level":"info","message":"🚀 Сервер запущен на порту 3000","timestamp":"2026-01-18T17:56:41.208Z"}
+{"level":"info","message":"🌍 Режим: development","timestamp":"2026-01-18T17:56:41.210Z"}
+{"level":"info","message":"GET /api/health - ::1","timestamp":"2026-01-18T17:56:47.270Z"}
+{"level":"info","message":"GET /api/health - ::1","timestamp":"2026-01-18T17:56:49.730Z"}
+{"level":"info","message":"GET / - ::1","timestamp":"2026-01-18T17:57:03.280Z"}
+{"level":"info","message":"GET / - ::1","timestamp":"2026-01-18T17:57:05.351Z"}
+{"level":"error","message":"❌ Ошибка подключения к MongoDB: connect ECONNREFUSED ::1:27017","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Unknown"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at _handleConnectionErrors (G:\\Программирование\\cosmic-clicker\\cosmic-clicker\\backend\\node_modules\\mongoose\\lib\\connection.js:816:11)\n    at NativeConnection.openUri (G:\\Программирование\\cosmic-clicker\\cosmic-clicker\\backend\\node_modules\\mongoose\\lib\\connection.js:791:11)\n    at runNextTicks (node:internal/process/task_queues:60:5)\n    at listOnTimeout (node:internal/timers:538:9)\n    at process.processTimers (node:internal/timers:512:7)","timestamp":"2026-01-18T17:57:11.218Z"}
+{"level":"info","message":"GET / - ::1","timestamp":"2026-01-18T17:57:23.791Z"}
+{"level":"info","message":"🚀 Сервер запущен на порту 3000","timestamp":"2026-01-18T20:14:34.064Z"}
+{"level":"info","message":"🌍 Режим: development","timestamp":"2026-01-18T20:14:34.067Z"}
+{"level":"info","message":"✅ MongoDB подключена","timestamp":"2026-01-18T20:14:34.130Z"}
+{"level":"info","message":"GET /api/health - ::1","timestamp":"2026-01-18T20:15:27.438Z"}
+{"level":"info","message":"GET / - ::1","timestamp":"2026-01-18T20:15:32.917Z"}
+{"level":"info","message":"🚀 Сервер запущен на порту 3000","timestamp":"2026-01-18T20:17:06.886Z"}
+{"level":"info","message":"🌍 Режим: development","timestamp":"2026-01-18T20:17:06.888Z"}
+{"level":"info","message":"✅ MongoDB подключена","timestamp":"2026-01-18T20:17:06.935Z"}
+{"level":"info","message":"GET /api/health - ::1","timestamp":"2026-01-18T20:18:02.740Z"}
+{"level":"info","message":"GET / - ::1","timestamp":"2026-01-18T20:18:05.285Z"}
+{"level":"info","message":"GET /api/health - ::1","timestamp":"2026-01-18T20:23:07.162Z"}
+{"level":"info","message":"🚀 Сервер запущен на порту 3000","timestamp":"2026-01-18T22:47:23.842Z"}
+{"level":"info","message":"🌍 Режим: development","timestamp":"2026-01-18T22:47:23.845Z"}
+{"level":"info","message":"✅ MongoDB подключена","timestamp":"2026-01-18T22:47:23.899Z"}
+{"level":"info","message":"🚀 Сервер запущен на порту 3000","timestamp":"2026-01-18T22:47:24.762Z"}
+{"level":"info","message":"🌍 Режим: development","timestamp":"2026-01-18T22:47:24.764Z"}
+{"level":"info","message":"✅ MongoDB подключена","timestamp":"2026-01-18T22:47:24.809Z"}
+{"level":"info","message":"🚀 Сервер запущен на порту 3000","timestamp":"2026-01-18T22:47:49.337Z"}
+{"level":"info","message":"🌍 Режим: development","timestamp":"2026-01-18T22:47:49.340Z"}
+{"level":"info","message":"✅ MongoDB подключена","timestamp":"2026-01-18T22:47:49.389Z"}
+{"level":"info","message":"🚀 Сервер запущен на порту 3000","timestamp":"2026-01-18T23:04:09.165Z"}
+{"level":"info","message":"🌍 Режим: development","timestamp":"2026-01-18T23:04:09.167Z"}
+{"level":"info","message":"✅ MongoDB подключена","timestamp":"2026-01-18T23:04:09.216Z"}
+{"level":"info","message":"GET /api/admin/health - ::1","timestamp":"2026-01-18T23:08:27.185Z"}
+{"level":"info","message":"🚀 Сервер запущен на порту 3000","timestamp":"2026-01-18T23:10:15.546Z"}
+{"level":"info","message":"🌍 Режим: development","timestamp":"2026-01-18T23:10:15.550Z"}
+{"level":"info","message":"✅ MongoDB подключена","timestamp":"2026-01-18T23:10:15.624Z"}
+{"level":"info","message":"🚀 Сервер запущен на порту 3000","timestamp":"2026-01-18T23:11:06.190Z"}
+{"level":"info","message":"🌍 Режим: development","timestamp":"2026-01-18T23:11:06.193Z"}
+{"level":"info","message":"✅ MongoDB подключена","timestamp":"2026-01-18T23:11:06.249Z"}
+{"level":"info","message":"🚀 Сервер запущен на порту 3000","timestamp":"2026-01-18T23:12:09.517Z"}
+{"level":"info","message":"🌍 Режим: development","timestamp":"2026-01-18T23:12:09.519Z"}
+{"level":"info","message":"✅ MongoDB подключена","timestamp":"2026-01-18T23:12:09.567Z"}
+{"level":"info","message":"🚀 Сервер запущен на порту 3000","timestamp":"2026-01-18T23:13:48.409Z"}
+{"level":"info","message":"🌍 Режим: development","timestamp":"2026-01-18T23:13:48.412Z"}
+{"level":"info","message":"✅ MongoDB подключена","timestamp":"2026-01-18T23:13:48.471Z"}
+{"level":"info","message":"🚀 Сервер запущен на порту 3000","timestamp":"2026-01-18T23:13:55.252Z"}
+{"level":"info","message":"🌍 Режим: development","timestamp":"2026-01-18T23:13:55.254Z"}
+{"level":"info","message":"✅ MongoDB подключена","timestamp":"2026-01-18T23:13:55.302Z"}
+{"level":"info","message":"GET /api/health - ::1","timestamp":"2026-01-18T23:14:15.663Z"}
+{"level":"info","message":"GET /api/game/state - ::1","timestamp":"2026-01-18T23:14:54.448Z"}
+{"level":"info","message":"GET /api/shop/items - ::1","timestamp":"2026-01-18T23:15:04.372Z"}
+{"level":"info","message":"GET /api/shop/items - ::1","timestamp":"2026-01-18T23:15:07.041Z"}
+{"level":"info","message":"GET /api/game/state - ::1","timestamp":"2026-01-18T23:15:08.351Z"}
+{"level":"info","message":"🚀 Сервер запущен на порту 3000","timestamp":"2026-01-18T23:18:11.664Z"}
+{"level":"info","message":"🌍 Режим: development","timestamp":"2026-01-18T23:18:11.666Z"}
+{"level":"info","message":"✅ MongoDB подключена","timestamp":"2026-01-18T23:18:11.712Z"}
+{"level":"info","message":"🚀 Сервер запущен на порту 3000","timestamp":"2026-01-18T23:19:09.612Z"}
+{"level":"info","message":"🌍 Режим: development","timestamp":"2026-01-18T23:19:09.614Z"}
+{"level":"info","message":"✅ MongoDB подключена","timestamp":"2026-01-18T23:19:09.678Z"}
+{"level":"info","message":"🚀 Сервер запущен на порту 3000","timestamp":"2026-01-18T23:19:25.580Z"}
+{"level":"info","message":"🌍 Режим: development","timestamp":"2026-01-18T23:19:25.582Z"}
+{"level":"info","message":"✅ MongoDB подключена","timestamp":"2026-01-18T23:19:25.626Z"}
+{"level":"info","message":"🚀 Сервер запущен на порту 3000","timestamp":"2026-01-18T23:21:09.462Z"}
+{"level":"info","message":"🌍 Режим: development","timestamp":"2026-01-18T23:21:09.464Z"}
+{"level":"info","message":"✅ MongoDB подключена","timestamp":"2026-01-18T23:21:09.514Z"}
+{"level":"info","message":"🚀 Сервер запущен на порту 3000","timestamp":"2026-01-18T23:30:14.649Z"}
+{"level":"info","message":"🌍 Режим: development","timestamp":"2026-01-18T23:30:14.651Z"}
+{"level":"info","message":"✅ MongoDB подключена","timestamp":"2026-01-18T23:30:14.696Z"}
+{"level":"info","message":"GET /admin/ - ::1","timestamp":"2026-01-18T23:30:52.224Z"}
+{"level":"info","message":"GET /admin/style.css - ::1","timestamp":"2026-01-18T23:30:52.242Z"}
+{"level":"info","message":"GET /admin/script.js - ::1","timestamp":"2026-01-18T23:30:52.243Z"}
+{"level":"info","message":"GET /admin/ - ::1","timestamp":"2026-01-18T23:30:55.534Z"}
+{"level":"info","message":"GET /admin/style.css - ::1","timestamp":"2026-01-18T23:30:55.548Z"}
+{"level":"info","message":"GET /admin/script.js - ::1","timestamp":"2026-01-18T23:30:55.549Z"}
+{"level":"info","message":"GET /api/admin/health - ::1","timestamp":"2026-01-18T23:30:57.856Z"}
+{"level":"info","message":"GET /api/admin/health - ::1","timestamp":"2026-01-18T23:31:05.214Z"}
+{"level":"info","message":"🚀 Сервер запущен на порту 3000","timestamp":"2026-01-18T23:32:25.507Z"}
+{"level":"info","message":"🌍 Режим: development","timestamp":"2026-01-18T23:32:25.510Z"}
+{"level":"info","message":"✅ MongoDB подключена","timestamp":"2026-01-18T23:32:25.558Z"}
+{"level":"info","message":"🚀 Сервер запущен на порту 3000","timestamp":"2026-01-18T23:36:48.577Z"}
+{"level":"info","message":"🌍 Режим: development","timestamp":"2026-01-18T23:36:48.580Z"}
+{"level":"info","message":"✅ MongoDB подключена","timestamp":"2026-01-18T23:36:48.635Z"}
+{"level":"info","message":"GET /admin/ - ::1","timestamp":"2026-01-18T23:36:56.715Z"}
+{"level":"info","message":"GET /admin/style.css - ::1","timestamp":"2026-01-18T23:36:56.732Z"}
+{"level":"info","message":"GET /admin/script.js - ::1","timestamp":"2026-01-18T23:36:56.735Z"}
+{"level":"info","message":"GET /admin/ - ::1","timestamp":"2026-01-18T23:37:36.702Z"}
+{"level":"info","message":"GET /admin/style.css - ::1","timestamp":"2026-01-18T23:37:36.719Z"}
+{"level":"info","message":"GET /admin/script.js - ::1","timestamp":"2026-01-18T23:37:36.721Z"}
+{"level":"info","message":"GET /admin/style.css - ::1","timestamp":"2026-01-18T23:38:32.009Z"}
+{"level":"info","message":"GET /.well-known/appspecific/com.chrome.devtools.json - ::1","timestamp":"2026-01-18T23:38:32.015Z"}
+{"level":"info","message":"🚀 Сервер запущен на порту 3000","timestamp":"2026-01-18T23:40:44.192Z"}
+{"level":"info","message":"🌍 Режим: development","timestamp":"2026-01-18T23:40:44.195Z"}
+{"level":"info","message":"✅ MongoDB подключена","timestamp":"2026-01-18T23:40:44.264Z"}
+{"level":"info","message":"GET /.well-known/appspecific/com.chrome.devtools.json - ::1","timestamp":"2026-01-18T23:40:53.955Z"}

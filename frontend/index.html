@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Clicker - Зарабатывай звёзды!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Хедер с балансом -->
+        <header class="game-header">
+            <div class="user-info">
+                <div class="avatar" id="user-avatar">👤</div>
+                <div class="user-details">
+                    <span id="username">Космический Исследователь</span>
+                    <div class="user-level">
+                        <span>Уровень: </span>
+                        <span id="user-level">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="resources">
+                <div class="resource">
+                    <span class="icon">⭐</span>
+                    <span class="value" id="stars">1,000</span>
+                </div>
+                <div class="resource">
+                    <span class="icon">⚡</span>
+                    <span class="value" id="energy">100/100</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Основной игровой экран -->
+        <main class="game-main">
+            <div class="planet-container">
+                <div class="planet" id="click-planet">
+                    <div class="planet-core"></div>
+                    <div class="planet-rings"></div>
+                    <div class="particles"></div>
+                </div>
+                <div class="click-effect" id="click-effect"></div>
+            </div>
+            
+            <div class="stats">
+                <div class="stat">
+                    <span>Сила клика:</span>
+                    <span id="click-power">1</span>
+                </div>
+                <div class="stat">
+                    <span>Пассивный доход:</span>
+                    <span id="passive-income">5/сек</span>
+                </div>
+                <div class="stat">
+                    <span>Всего кликов:</span>
+                    <span id="total-clicks">0</span>
+                </div>
+            </div>
+
+            <button class="click-button" id="click-btn">
+                <span class="btn-main">КОСМИЧЕСКИЙ КЛИК</span>
+                <span class="btn-sub">+<span id="click-value">1</span> ⭐ за клик</span>
+            </button>
+        </main>
+
+        <!-- Нижняя панель с меню -->
+        <nav class="game-nav">
+            <button class="nav-btn active" data-tab="upgrades">
+                <span class="nav-icon">🛠️</span>
+                <span class="nav-text">Улучшения</span>
+            </button>
+            <button class="nav-btn" data-tab="artifacts">
+                <span class="nav-icon">💎</span>
+                <span class="nav-text">Артефакты</span>
+            </button>
+            <button class="nav-btn" data-tab="shop">
+                <span class="nav-icon">🛒</span>
+                <span class="nav-text">Магазин</span>
+            </button>
+            <button class="nav-btn" data-tab="missions">
+                <span class="nav-icon">🎯</span>
+                <span class="nav-text">Миссии</span>
+            </button>
+        </nav>
+
+        <!-- Модальные окна -->
+        <div class="modal-overlay" id="modal-overlay"></div>
+        
+        <div class="modal" id="upgrades-modal">
+            <div class="modal-header">
+                <h2>🛠️ Улучшения</h2>
+                <button class="close-modal" data-modal="upgrades">✕</button>
+            </div>
+            <div class="modal-body">
+                <div class="upgrades-list" id="upgrades-list">
+                    <!-- Улучшения будут добавляться через JS -->
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="shop-modal">
+            <div class="modal-header">
+                <h2>🛒 Магазин</h2>
+                <button class="close-modal" data-modal="shop">✕</button>
+            </div>
+            <div class="modal-body">
+                <div class="shop-categories">
+                    <button class="category-btn active" data-category="energy">⚡ Энергия</button>
+                    <button class="category-btn" data-category="boosters">🚀 Бустеры</button>
+                    <button class="category-btn" data-category="artifacts">💎 Артефакты</button>
+                </div>
+                <div class="shop-items" id="shop-items">
+                    <!-- Товары будут добавляться через JS -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Рекламный блок -->
+        <div class="ad-section">
+            <div class="ad-container">
+                <h3>🎁 Получи бонус за просмотр рекламы!</h3>
+                <p>Смотри рекламу и получай звёзды</p>
+                <button class="ad-button" id="watch-ad-btn">
+                    <span class="ad-icon">🎬</span>
+                    <span class="ad-text">Смотреть рекламу</span>
+                    <span class="ad-reward">+500 ⭐</span>
+                </button>
+                <p class="ad-note">Доступно: <span id="ads-available">5</span>/5 раз</p>
+            </div>
+        </div>
+
+        <!-- Уведомления -->
+        <div class="notifications" id="notifications"></div>
+    </div>
+
+    <!-- Подключаем все JS файлы -->
+    <script src="js/utils.js"></script>
+    <script src="js/game-logic.js"></script>
+    <script src="js/ui-manager.js"></script>
+    <script src="js/ad-manager.js"></script>
+    <script src="js/telegram-integration.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

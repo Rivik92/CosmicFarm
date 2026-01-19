@@ -1,0 +1,316 @@
+/* Адаптивные стили для Cosmic Clicker */
+
+/* Мобильные устройства (до 768px) */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+    
+    .game-header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 12px;
+    }
+    
+    .user-info {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .resources {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .resource {
+        min-width: 120px;
+    }
+    
+    .planet-container {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .planet-rings {
+        width: 180px;
+        height: 180px;
+    }
+    
+    .stats {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    .game-nav {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .modal {
+        width: 95%;
+        max-height: 85vh;
+    }
+    
+    .click-button {
+        padding: 20px;
+        font-size: 18px;
+    }
+    
+    .btn-main {
+        font-size: 20px;
+    }
+}
+
+/* Маленькие мобильные (до 480px) */
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .game-header {
+        padding: 10px;
+    }
+    
+    .avatar {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+    
+    .resource {
+        min-width: 100px;
+        padding: 6px 10px;
+    }
+    
+    .resource .value {
+        font-size: 16px;
+    }
+    
+    .planet-container {
+        width: 180px;
+        height: 180px;
+        margin: 10px 0 20px;
+    }
+    
+    .planet-core {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .planet-rings {
+        width: 160px;
+        height: 160px;
+    }
+    
+    .stat {
+        padding: 10px;
+    }
+    
+    .stat span:last-child {
+        font-size: 16px;
+    }
+    
+    .click-button {
+        padding: 18px;
+        font-size: 16px;
+    }
+    
+    .btn-main {
+        font-size: 18px;
+    }
+    
+    .btn-sub {
+        font-size: 14px;
+    }
+    
+    .nav-btn {
+        padding: 12px 5px;
+    }
+    
+    .nav-icon {
+        font-size: 20px;
+    }
+    
+    .nav-text {
+        font-size: 11px;
+    }
+    
+    .modal-header {
+        padding: 15px;
+    }
+    
+    .modal-body {
+        padding: 15px;
+    }
+    
+    .ad-container {
+        padding: 15px;
+    }
+    
+    .ad-button {
+        padding: 12px;
+    }
+    
+    .notifications {
+        top: 10px;
+        right: 10px;
+        max-width: calc(100% - 20px);
+    }
+}
+
+/* Планшеты (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        max-width: 700px;
+    }
+    
+    .planet-container {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .planet-rings {
+        width: 260px;
+        height: 260px;
+    }
+    
+    .planet-core {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .click-button {
+        padding: 30px;
+        font-size: 22px;
+    }
+    
+    .btn-main {
+        font-size: 24px;
+    }
+}
+
+/* Ландшафтная ориентация мобильных */
+@media (max-height: 600px) and (orientation: landscape) {
+    .container {
+        padding: 10px;
+    }
+    
+    .game-header {
+        flex-direction: row;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .planet-container {
+        width: 150px;
+        height: 150px;
+        margin: 10px 0;
+    }
+    
+    .stats {
+        margin-bottom: 15px;
+    }
+    
+    .game-nav {
+        margin-bottom: 10px;
+    }
+    
+    .ad-section {
+        margin-top: 10px;
+    }
+}
+
+/* Высокие устройства (больше 800px высоты) */
+@media (min-height: 800px) {
+    .container {
+        justify-content: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+/* Поддержка темной темы */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --space-dark: #000000;
+        --space-blue: #0a0e17;
+    }
+    
+    .modal {
+        background: linear-gradient(135deg, #0a0e17, #1a1f38);
+    }
+}
+
+/* Поддержка уменьшенного движения */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Поддержка высокой контрастности */
+@media (prefers-contrast: high) {
+    :root {
+        --neon-blue: #00ffff;
+        --neon-purple: #ff00ff;
+        --star-yellow: #ffff00;
+    }
+    
+    .planet {
+        border: 3px solid white;
+    }
+    
+    .resource {
+        border: 2px solid white;
+    }
+}
+
+/* Фикс для iOS Safari */
+@supports (-webkit-touch-callout: none) {
+    .container {
+        min-height: -webkit-fill-available;
+    }
+    
+    .click-button {
+        -webkit-tap-highlight-color: transparent;
+    }
+}
+
+/* Фикс для Firefox */
+@-moz-document url-prefix() {
+    .game-header {
+        background: rgba(26, 31, 56, 0.95);
+    }
+}
+
+/* Оптимизация для слабых устройств */
+@media (max-width: 768px) and (max-resolution: 1.5dppx) {
+    .planet {
+        box-shadow: 
+            inset 0 0 30px rgba(255, 255, 255, 0.1),
+            0 0 50px rgba(79, 70, 229, 0.4);
+    }
+    
+    .click-effect {
+        display: none;
+    }
+}
+
+/* Портретная ориентация */
+@media (orientation: portrait) {
+    .game-nav {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Альбомная ориентация */
+@media (orientation: landscape) and (max-width: 900px) {
+    .game-nav {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .container {
+        padding: 10px;
+    }
+}
